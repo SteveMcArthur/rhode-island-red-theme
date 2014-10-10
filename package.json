@@ -4,7 +4,7 @@
     "description": "Silky, dark, maroon based theme to give your code a touch of class",
     "version": "0.0.1",
     "author": "Steve McArthur <contact@stevemcarthur.co.uk>",
-    "homepage": "",
+    "homepage": "https://github.com/SteveMcArthur/rhode-island-red-theme",
     "keywords": [
         "extension",
         "brackets",
@@ -14,7 +14,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "git@github.com:SteveMcArthur/rhode-island-red-theme.git"
     },
     "engines": {
         "brackets": ">=0.42.0"
