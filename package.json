@@ -6,11 +6,9 @@
     "author": "Steve McArthur <contact@stevemcarthur.co.uk>",
     "homepage": "https://github.com/SteveMcArthur/rhode-island-red-theme",
     "keywords": [
-        "extension",
-        "brackets",
+		"theme",
         "red",
-        "dark",
-        "theme"
+        "dark"
     ],
     "repository": {
         "type": "git",
