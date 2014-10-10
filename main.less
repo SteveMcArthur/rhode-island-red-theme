@@ -1,0 +1,118 @@
+/**
+* Theme Rhode Island Red Copyright (c) 2014 Steve McArthur
+* Licensed under MIT
+*/
+
+
+@background: #63192E;
+@comment: #999;
+@white: #fff;
+@grey:  #C2BEBE;
+@brightgreen: #7BD827;
+@red: #ac4c66;
+@pink: #F5BAC0;
+@lightblue: #82C6E0;
+@orange: #F08047;
+@blue: #16314a;
+@yellow: #F4C20B;
+
+
+.CodeMirror {
+    .CodeMirror-scroll {
+        background-color: @background;
+        color: @white;
+    }
+    .CodeMirror-selected {
+        background: lighten(@background, 20%);
+    }
+    .CodeMirror-gutters {
+        background: lighten(@background, 13%);
+        border-right: 7px solid @red;
+    }
+    .CodeMirror-linenumber {
+        color: @white;
+    }
+    .CodeMirror-cursor {
+        border-left: 1px solid @white !important;
+    }
+    .CodeMirror-matchingbracket {
+        color: @lightblue !important;
+        background-color: transparent;
+    }
+    .CodeMirror-activeline-background {
+        background: lighten(@background, 5%);
+    }
+    .CodeMirror-searching {
+        background-color: fade(@orange, 90%);
+        border: 1px dashed white;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        color: @white !important;
+    }
+}
+.CodeMirror-searching.searching-current-match {
+    background-color:@blue;
+}
+.cm-comment {
+    color: @grey;
+}
+.cm-number {
+    color: @lightblue;
+}
+.cm-string {
+    color:  @pink;
+}
+.cm-string.cm-property {
+    color: @white;
+}
+.cm-error {
+    color: @blue !important;
+}
+.cm-meta,.cm-keyword,.cm-bracket {
+    color: @lightblue;
+}
+.cm-atom,.cm-link {
+    color: @yellow;
+}
+.cm-attribute,.cm-property {
+    color: @lightblue;
+}
+.cm-variable,.cm-variable-3,.cm-qualifier,.cm-def,.cm-operator {
+    color: @white;
+}
+.cm-variable-2,.cm-tag {
+    color: @brightgreen;
+}
+.cm-builtin,.cm-special {
+    color: @yellow;
+}
+.CodeMirror-matchingtag {
+    color: @white;
+    background: rgba(255, 255, 255, 0.2);
+}
+.CodeMirror-overwrite {
+    .CodeMirror-cursor {
+        border-left: none !important;
+        border-bottom: 1px solid @blue;
+    }
+}
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: rgba(255, 255, 255, 0.2);
+        color: @white;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: @brightgreen;
+    }
+}
+/* Non-editor styling */
+#not-editor,
+.not-editor {
+    background-color: @background !important;
+    background-image: url('images/no_content_bg.svg') !important;
+    transition: background-color .3s ease-out;
+}
+#image-holder,
+.image-view {
+    background-color: @background !important;
+    background-image: none !important;
+}

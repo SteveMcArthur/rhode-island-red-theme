@@ -1,0 +1,27 @@
+{
+    "title": "Rhode Island Red",
+    "name": "rhode-island-red",
+    "description": "Silky, dark, maroon based theme to give your code a touch of class",
+    "version": "0.0.1",
+    "author": "Steve McArthur <contact@stevemcarthur.co.uk>",
+    "homepage": "",
+    "keywords": [
+        "extension",
+        "brackets",
+        "red",
+        "dark",
+        "theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "main.less",
+        "dark": true
+    },
+    "screenshot": "screenshots/js.PNG"
+}
