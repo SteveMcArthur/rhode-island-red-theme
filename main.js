@@ -1,1 +1,0 @@
-$('#sidebar').css('backgroundColor', '#3192E');
