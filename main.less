@@ -5,7 +5,6 @@
 
 
 @background: #63192E;
-@comment: #999;
 @white: #fff;
 @grey:  #C2BEBE;
 @brightgreen: #7BD827;
@@ -56,7 +55,7 @@
     color: @grey;
 }
 .cm-number {
-    color: @lightblue;
+    color: @orange;/*might want to change this as its the same as keyword*/
 }
 .cm-string {
     color:  @pink;
@@ -65,7 +64,9 @@
     color: @white;
 }
 .cm-error {
-    color: @blue !important;
+    color: red !important;
+    font-weight: bold !important;
+    border-bottom: 1px dashed white !important;
 }
 .cm-meta,.cm-keyword,.cm-bracket {
     color: @lightblue;
@@ -85,6 +86,9 @@
 .cm-builtin,.cm-special {
     color: @yellow;
 }
+
+
+
 .CodeMirror-matchingtag {
     color: @white;
     background: rgba(255, 255, 255, 0.2);
@@ -115,4 +119,8 @@
 .image-view {
     background-color: @background !important;
     background-image: none !important;
+}
+
+#sidebar.panel {
+     background-color: @background;    
 }
