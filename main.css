@@ -29,7 +29,6 @@
 }
 .CodeMirror .CodeMirror-searching {
   background-color: rgba(240, 128, 71, 0.9);
-  border: 1px dashed white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
   color: #ffffff !important;
 }
@@ -41,7 +40,6 @@
 }
 .cm-number {
   color: #f08047;
-  /*might want to change this as its the same as keyword*/
 }
 .cm-string {
   color: #f5bac0;
@@ -51,7 +49,6 @@
 }
 .cm-error {
   color: red !important;
-  /* background: lighten(@background, 50%);*/
   font-weight: bold !important;
 }
 .cm-meta,
