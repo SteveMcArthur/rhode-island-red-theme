@@ -94,13 +94,11 @@
   color: #7bd827;
 }
 /* Non-editor styling */
-#not-editor,
 .not-editor {
   background-color: #63192e !important;
   background-image: url('images/no_content_bg.svg') !important;
   transition: background-color 0.3s ease-out;
 }
-#image-holder,
 .image-view {
   background-color: #63192e !important;
   background-image: none !important;
