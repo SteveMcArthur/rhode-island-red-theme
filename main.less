@@ -42,14 +42,13 @@
         background: lighten(@background, 5%);
     }
     .CodeMirror-searching {
-        background-color: fade(@orange, 90%);
-//        border: 1px dashed white;
+        background-color: fade(@blue, 90%);
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
         color: @white !important;
     }
 }
 .CodeMirror-searching.searching-current-match {
-    background-color:@blue;
+    background-color:@orange;
 }
 .cm-comment {
     color: @grey;
@@ -87,7 +86,6 @@
 }
 
 
-
 .CodeMirror-matchingtag {
     background: rgba(255, 255, 255, 0.2);
 }
@@ -119,4 +117,18 @@
 
 #sidebar.panel {
      background-color: @background;    
+}
+
+/* Plugin Custom Styling */
+/* Spell Check https://github.com/couzteau/SpellCheck */
+span.underline,
+span.SpellCheckUnderline
+{
+    border-bottom: dotted 1px white;
+    background-color: fade(@background, 50%);
+}
+
+/* hdy.brackets-shell https://github.com/johnhidey/hdy.brackets-shell/ */
+.hdy-command-result pre {
+	color: white;
 }
